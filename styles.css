@@ -61,6 +61,7 @@
     row-gap: 30px;
     position: relative;
     bottom: 100px;
+    font-weight: 600;
 }
 
 .proj-col {
@@ -74,23 +75,73 @@
     height: 50px;
     border-radius: 10px;
     text-align: center;
+    background-color: #F39C12;
 }
 
 .proj-img {
-    border-style: solid;
     height: 113px;
     border-radius: 10px;
 }
 
 .proj-descr {
-    border-style: solid;
+    border-style: solid; 
     height: 113px;
     border-radius: 10px;
+    text-align: justify;
+    background-color: #F39C12;
+}
+
+.descr-text {
+    position: relative;
+    padding: 10px;
+    bottom: 5px;
+    font-weight: 100;
+}
+
+#csm-img {
+    position: relative; 
+    z-index: -1;
+    left: 95px;
+    bottom: 53px;
+}
+
+#cs61a-img {
+    position: relative;
+    left: 150px;
+    top: 5px;
+}
+
+#met-img {
+    position: relative; 
+    z-index: -1;
+    left: 105px;
+    bottom: 47px;
+}
+
+#tubitak-img {
+    position: relative; 
+    z-index: -1;
+    height: 100px;
+    left: 110px;
+    top: 5px;
+}
+
+#cern-img {
+    position: relative; 
+    z-index: -1;
+    height: 110px;
+    left: 150px;
+    top: 2px;
 }
 
 .contact {
     border-style: solid;
+    border-radius: 10px;
     height: 170px;
+    position: relative;
+    bottom: 50px;
+    background-color: #33E5FF;
+    font-weight: 600;
 }
 
 .contact-list {
